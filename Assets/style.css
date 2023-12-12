@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0 10vw;
+}
+
+.header-heading {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-text {
+    display: flex;
+    color: var(--Gray-2, #4F4F4F);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    width: 70vw;
+}
+
+.header-text img {
+    margin: 0.5vw;
+    width: 5vw;
+    height: 1vw;
+}
+
+.main {
+    margin: 5vw 10vw;
+}
+
+.main-image {
+    width: 80vw;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container--left {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.main-container--heading {
+    color: var(--Gray-1, #333);
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-container--sub-heading {
+    color: var(--Gray-1, #333);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-container--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 30vw;
+}
+
+.card {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
